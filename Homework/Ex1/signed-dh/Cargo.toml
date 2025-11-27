@@ -1,0 +1,25 @@
+[package]
+name = "signed_dh_demo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Ed25519 signatures (identity keys)
+ed25519-dalek = { version = "2.1", features = ["rand_core"] }
+
+# X25519 DHKE (ephemeral keys)
+x25519-dalek = { version = "2.0", features = ["static_secrets"] }
+
+# HKDF with SHA3-256
+hkdf = "0.12"
+sha3 = "0.10"
+
+# AEAD (AES-256-GCM)
+aes-gcm = "0.10"
+aead = "0.5"
+
+# Utilities
+rand = "0.8"
+anyhow = "1.0"
+base64 = "0.22"
+hex = "0.4"

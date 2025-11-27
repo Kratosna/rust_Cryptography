@@ -1,0 +1,12 @@
+[package]
+name = "tls_handshake"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sha2 = "0.10"
+hkdf = "0.12"
+hmac = "0.12"
+p256 = { version = "0.13", features = ["ecdh", "ecdsa"] }
+rand = "0.8"
+hex = "0.4"
