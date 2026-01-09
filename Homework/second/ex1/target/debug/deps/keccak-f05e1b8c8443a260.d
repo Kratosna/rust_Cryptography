@@ -1,0 +1,6 @@
+/home/nadia/rust_Cryptography/Homework/second/ex1/target/debug/deps/keccak-f05e1b8c8443a260.d: /home/nadia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/keccak-0.1.5/src/lib.rs /home/nadia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/keccak-0.1.5/src/unroll.rs
+
+/home/nadia/rust_Cryptography/Homework/second/ex1/target/debug/deps/libkeccak-f05e1b8c8443a260.rmeta: /home/nadia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/keccak-0.1.5/src/lib.rs /home/nadia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/keccak-0.1.5/src/unroll.rs
+
+/home/nadia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/keccak-0.1.5/src/lib.rs:
+/home/nadia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/keccak-0.1.5/src/unroll.rs:
