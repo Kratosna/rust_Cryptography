@@ -1,0 +1,10 @@
+/home/nadia/rust_Cryptography/Homework/password/opaque/target/debug/deps/primeorder-ae7bf51be81fbc39.d: /home/nadia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/lib.rs /home/nadia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/point_arithmetic.rs /home/nadia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/affine.rs /home/nadia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/field.rs /home/nadia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/projective.rs /home/nadia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/../README.md
+
+/home/nadia/rust_Cryptography/Homework/password/opaque/target/debug/deps/libprimeorder-ae7bf51be81fbc39.rmeta: /home/nadia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/lib.rs /home/nadia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/point_arithmetic.rs /home/nadia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/affine.rs /home/nadia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/field.rs /home/nadia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/projective.rs /home/nadia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/../README.md
+
+/home/nadia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/lib.rs:
+/home/nadia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/point_arithmetic.rs:
+/home/nadia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/affine.rs:
+/home/nadia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/field.rs:
+/home/nadia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/projective.rs:
+/home/nadia/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primeorder-0.13.6/src/../README.md:
