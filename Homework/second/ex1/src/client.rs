@@ -182,14 +182,18 @@ impl Client {
         if server_finished_msg.msg_type != MessageType::Finished {
             return Err(ClientError::InvalidMessageType);
         }
-        handshake_messages.push(server_messages[3].clone());
 
         let server_finished: Finished = bincode::deserialize(&server_finished_msg.payload)?;
+        // Compute expected MAC BEFORE adding Finished to transcript
+        // (server computed its MAC over [CH, SH, Cert, CV], not including its own Finished)
         let expected_verify_data = compute_verify_data(&server_finished_key, &handshake_messages);
 
         if server_finished.verify_data != expected_verify_data {
             return Err(ClientError::FinishedVerificationFailed);
         }
+
+        // NOW add Finished to transcript (after verifying)
+        handshake_messages.push(server_messages[3].clone());
 
         // 8. Send client Finished
         let client_verify_data = compute_verify_data(&client_finished_key, &handshake_messages);
