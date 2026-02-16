@@ -12,7 +12,6 @@
 //! - Forward secrecy through ephemeral key exchange
 //! - Authenticated encryption with AES-256-GCM
 //!
-//! ## Example
 //!
 //! ```rust,no_run
 //! use pq_tls::{Server, Client, ServerConfig, ClientConfig};

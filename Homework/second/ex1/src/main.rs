@@ -3,7 +3,7 @@ use pq_tls::{Client, ClientConfig, Server, ServerConfig};
 fn main() {
     println!("Using: ML-KEM-768 (key exchange) + ML-DSA-65 (signatures) + AES-256-GCM\n");
 
-    // --- Setup ---
+    
     let server = Server::new(ServerConfig::default());
     let client = Client::new(ClientConfig::default());
 
